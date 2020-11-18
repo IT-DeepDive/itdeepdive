@@ -27,7 +27,7 @@ tags:
 ![Change users details](03_new-users-03.png)
 
 ## Related
-- [ownCloud Tutorial Part 1: Install and Configure the Server](../2020-07-17-owncloud-tutorial-part-1/index)
-- [ownCloud Tutorial Part 2: Install and Configure the Server](../2020-07-17-owncloud-tutorial-part-1/index)
-- [ownCloud Tutorial Part 3: Install and Configure the Server](../2020-07-17-owncloud-tutorial-part-1/index)
-- [ownCloud Tutorial Part 4: Install and Configure the Server](../2020-07-17-owncloud-tutorial-part-1/index)
+- [ownCloud Tutorial Part 1: Install and Configure the Server]({{<ref "2020-07-17-owncloud-tutorial-part-1">}})
+- [ownCloud Tutorial Part 2: Configure custom URL and HTTP port]({{<ref "2020-07-18-owncloud-tutorial-part-2">}})
+- [ownCloud Tutorial Part 3: Adding new Users]({{<ref "2020-07-19-owncloud-tutorial-part-3">}})
+- [ownCloud Tutorial Part 4: Configure Desktop and Mobile Clients]({{<ref "2020-07-20-owncloud-tutorial-part-4">}})
