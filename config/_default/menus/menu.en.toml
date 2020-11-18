@@ -4,15 +4,40 @@
   weight = -110
 
 [[main]]
-  name = "Archives"
-  url = "archives"
+  name = "Categories"
+  identifier= "Categories"
   weight = -109
+
+[[main]]
+  parent = "Categories"
+  name = "How to"
+  url = "/categories/how-to/"
+
+[[main]]
+  parent = "Categories"
+  name = "Troubleshooting"
+  url = "/categories/troubleshooting/"
+
+[[main]]
+  parent = "Categories"
+  name = "Tutorial"
+  url = "/categories/tutorial/"
+
+[[main]]
+  name = "Series"
+  identifier= "Series"
+  weight = -108
+
+[[main]]
+  parent = "Series"
+  name = "ownCloud"
+  url = "/series/owncloud/"
 
 # Submenus are done this way: parent -> identifier
 [[main]]
   name = "Links"
   identifier = "Links"
-  weight = -108
+  weight = -107
 [[main]]
   parent = "Links"
   name = "IT DeepDive Wiki"
@@ -25,4 +50,4 @@
 [[main]]
   name = "About"
   url = "about/"
-  weight = -107
+  weight = -106
