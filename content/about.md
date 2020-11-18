@@ -16,5 +16,3 @@ I am an enthusiastic, creative thinking, hugely experienced IT professional. Mot
 I have a wide range of [certifications](https://www.youracclaim.com/users/nicola-ruggiero/badges) and skills that have been acquired in various roles over my professional career. In addition I’m always eager to contribute to team success through hard work, attention to details and excellent organizational skills.
 
 Check out my [linkedin profile](https://www.linkedin.com/in/rugginic/).
-
-Link to [rich content](/post/richcontent)
