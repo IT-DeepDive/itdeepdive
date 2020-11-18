@@ -5,7 +5,7 @@
 
 [[main]]
   name = "Archives"
-  url = "post/rich-content/"
+  url = "archives"
   weight = -109
 
 # Submenus are done this way: parent -> identifier
@@ -15,12 +15,12 @@
   weight = -108
 [[main]]
   parent = "Links"
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/"
+  name = "IT DeepDive Wiki"
+  url = "https://dw.itddive.com/"
 [[main]]
   parent = "Links"
-  name = "Twitter"
-  url = "https://twitter.com/"
+  name = "Acclaim"
+  url = "https://www.youracclaim.com/users/nicola-ruggiero/badges/"
 
 [[main]]
   name = "About"

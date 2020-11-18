@@ -1,25 +1,20 @@
-+++
-title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
-+++
+---
+title: "About"
+description: "IT DeepDive"
+date: 2010-01-01
+aliases: ["about-us", "about-itdeepdive", "contact"]
+author: "Nicola Ruggiero"
+---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+# About me
+![](/images/rugginic.png)
 
-Hugo makes use of a variety of open source projects including:
+Computer science has been my passion since I was a child. I've always invested in myself trying to keep constantly updated on new technologies, acquiring new skills and deepening those already achieved.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+I am an enthusiastic, creative thinking, hugely experienced IT professional. Motivated to learn, grow and excel, with a diverse range of skills and experience accrued in more than 20 years, from areas such as system design and architecture all the way through to hardware infrastructure and implementation, from small/home offices to enterprise level cloud environments.
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+I have a wide range of [certifications](https://www.youracclaim.com/users/nicola-ruggiero/badges) and skills that have been acquired in various roles over my professional career. In addition I’m always eager to contribute to team success through hard work, attention to details and excellent organizational skills.
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+Check out my [linkedin profile](https://www.linkedin.com/in/rugginic/).
 
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+Link to [rich content](/post/richcontent)
