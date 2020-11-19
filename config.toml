@@ -47,7 +47,7 @@ author = "Nicola Ruggiero"
 twitter = "@rugginic"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
 introDescription = "Senior Engineer @VMware | VCIX-DCV | 2X VCP (DCV & NV) | CCNA | MCSA"
-# description = "" # set your site's description here. will be use for home page content meta tags (seo). Alternatively set this description in your homepage content file i.e content/_index.md. Whatever is set in the latter will take precedence
+description = "A technology focused website to share my knowledge and experience in IT."
 
 # Google analytics Id
 ga_analytics = "XXXXXXXXXX"
