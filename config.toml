@@ -1,14 +1,11 @@
-# set `baseurl` to your root domain
-# if you set it to "/" share icons won't work properly on production
 baseurl = "https://itdeepdive.com/"  # Include trailing slash
 title = "IT DeepDive"
 author = "Nicola Ruggiero"
 copyright = "Copyright © 2010–2020, IT DeepDive; all rights reserved."
-# canonifyurls = true
 paginate = 10
 theme = "hugo-clarity"
 
-disqusShortname = ""
+disqusShortname = "itdeepdive"
 
 DefaultContentLanguage = "en"
 # [languages]

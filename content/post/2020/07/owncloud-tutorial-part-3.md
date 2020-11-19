@@ -20,14 +20,9 @@ tags:
 # Adding Users
 1. Login to the web interface with your **Admin** credentials;
 2. On the top right corner, select **admin** and chose **Users**
-![Users](03_new-users-01.png)
+![Users](/post/2020/07/img/03-new-users-01.png)
 3. Add the user's details
-![Add users](03_new-users-02.png)
+![Add users](/post/2020/07/img/03-new-users-02.png)
 4. Once created, from this pane you can set a temporary **password** for the user and change its full name or leave it for him/her to complete.
-![Change users details](03_new-users-03.png)
+![Change users details](/post/2020/07/img/03-new-users-03.png)
 
-## Related
-- [ownCloud Tutorial Part 1: Install and Configure the Server]({{<ref "2020-07-17-owncloud-tutorial-part-1">}})
-- [ownCloud Tutorial Part 2: Configure custom URL and HTTP port]({{<ref "2020-07-18-owncloud-tutorial-part-2">}})
-- [ownCloud Tutorial Part 3: Adding new Users]({{<ref "2020-07-19-owncloud-tutorial-part-3">}})
-- [ownCloud Tutorial Part 4: Configure Desktop and Mobile Clients]({{<ref "2020-07-20-owncloud-tutorial-part-4">}})

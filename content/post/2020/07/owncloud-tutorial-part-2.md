@@ -1,7 +1,7 @@
 ---
-title: "Owncloud Tutorial Part 2: Configure custom URL and HTTP port" # Title of the blog post.
-date: 2020-07-18 # Date of post creation.
-description: "Configure custom URL and HTTP port on ownCloud Server" # Description used for search engine.
+title: "ownCloud Tutorial Part 2: Configure custom URL and HTTP port"
+date: 2020-07-18 
+description: "ownCloud Tutorial Part 2: Configure custom URL and HTTP port" # Description used for search engine.
 featured: false # Sets if post is a featured post, making appear on the home page side bar.
 toc: true # Controls if a table of contents should be generated for first-level links automatically.
 codeMaxLines: 10 # Override global value for how many lines within a code block before auto-collapsing.
@@ -12,7 +12,7 @@ categories:
 series:
   - ownCloud
 tags:
-  - Linux
+  - linux
   - ownCloud
 # comment: false # Disable comment if false.
 ---
@@ -48,7 +48,7 @@ You may want to check if the syntax of the configuration is correct with the fol
 ```sh
 apachectl configtest
 ```
-![vhost verification](02_vhost-01.png)
+![vhost verification](/post/2020/07/img/02-vhost-01.png)
 
 Now restart Apache to make these changes take effect.
 
@@ -63,10 +63,5 @@ firewall-cmd --reload
 ```
 
 Now you should be able to access your ownCloud server pointing your browser to `http://owncloud_ip:8080`
-![Completed](02_vhost-02.png)
+![Completed](/post/2020/07/img/02-vhost-02.png)
 
-## Related
-- [ownCloud Tutorial Part 1: Install and Configure the Server]({{<ref "2020-07-17-owncloud-tutorial-part-1">}})
-- [ownCloud Tutorial Part 2: Configure custom URL and HTTP port]({{<ref "2020-07-18-owncloud-tutorial-part-2">}})
-- [ownCloud Tutorial Part 3: Adding new Users]({{<ref "2020-07-19-owncloud-tutorial-part-3">}})
-- [ownCloud Tutorial Part 4: Configure Desktop and Mobile Clients]({{<ref "2020-07-20-owncloud-tutorial-part-4">}})

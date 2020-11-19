@@ -1,23 +1,22 @@
 ---
-title: "ownCloud Tutorial Part 1: Install and Configure the Server" # Title of the blog post.
-date: 2020-07-17 # Date of post creation.
-description: "Install and Configure the Server ownCloud Server" # Description used for search engine.
-featured: false # Sets if post is a featured post, making appear on the home page side bar.
-toc: true # Controls if a table of contents should be generated for first-level links automatically.
-codeMaxLines: 10 # Override global value for how many lines within a code block before auto-collapsing.
-codeLineNumbers: false # Override global value for showing of line numbers within code block.
-figurePositionShow: true # Override global value for showing the figure label.
+title: "ownCloud Tutorial Part 1: Install & configure the ownCloud Server"
+date: 2020-07-17
+description: "ownCloud Tutorial Part 1: Install & configure the ownCloud Server"
+featured: false
+toc: true
+codeMaxLines: 10
+codeLineNumbers: false
+figurePositionShow: true
 categories:
-  - Tutorial
+- Tutorial
 series:
-  - ownCloud
+- ownCloud
 tags:
-  - Linux
-  - ownCloud
-# comment: false # Disable comment if false.
+- linux
+- onwcloud
 ---
 
-This quickstart guide is for those who want to quickly install and configure a [ownCloud Server](https://owncloud.org/download/#owncloud-server).  
+This quickstart guide is for those who want to quickly install and configure a [ownCloud Server](https://owncloud.org/download/#owncloud-server).
 Although there are many different ways to achieve this goal, this document will cover a standard single-server ownCloud installation on [CentOS 7](https://www.centos.org/).
 
 # Install and Configure ownCloud Server
@@ -113,7 +112,8 @@ GRANT ALL ON owncloud_db.* TO 'owncloud_user'@'localhost' IDENTIFIED BY '<YourPa
 FLUSH PRIVILEGES;
 EXIT;
 ```
-![Creating the database](01-create-db.png)
+
+![Creating the database](/post/2020/07/img/01-create-db.png)
 
 ## Install onwCloud
 This section explains how to install **onwCloud Server** from the official repository for the **CentOS 7** distribution.  
@@ -172,13 +172,7 @@ When the ownCloud prerequisites are fulfilled and all ownCloud files are install
 3. Configure the database
 4. Click **Finish Setup**
 
-![Web Setup](01_web-setup-02.png)
+![Web Setup](/post/2020/07/img/01-web-setup-02.png)
 
 We should be now ready to proceed with the product configuration through the web interface at `http://onwcloud_ip/owncloud/`.
 
-## Related
-
-- [ownCloud Tutorial Part 1: Install and Configure the Server]({{<ref "2020-07-17-owncloud-tutorial-part-1">}})
-- [ownCloud Tutorial Part 2: Configure custom URL and HTTP port]({{<ref "2020-07-18-owncloud-tutorial-part-2">}})
-- [ownCloud Tutorial Part 3: Adding new Users]({{<ref "2020-07-19-owncloud-tutorial-part-3">}})
-- [ownCloud Tutorial Part 4: Configure Desktop and Mobile Clients]({{<ref "2020-07-20-owncloud-tutorial-part-4">}})
