@@ -6,7 +6,6 @@ featured: false
 toc: true
 codeMaxLines: 10
 codeLineNumbers: false
-figurePositionShow: true
 categories:
 - Tutorial
 series:

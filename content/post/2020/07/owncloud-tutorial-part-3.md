@@ -6,7 +6,6 @@ featured: false # Sets if post is a featured post, making appear on the home pag
 toc: false # Controls if a table of contents should be generated for first-level links automatically.
 codeMaxLines: 10 # Override global value for how many lines within a code block before auto-collapsing.
 codeLineNumbers: false # Override global value for showing of line numbers within code block.
-figurePositionShow: true # Override global value for showing the figure label.
 categories:
   - Tutorial
 series:
@@ -19,10 +18,10 @@ tags:
 
 # Adding Users
 1. Login to the web interface with your **Admin** credentials;
-2. On the top right corner, select **admin** and chose **Users**
+2. On the top right corner, select **admin** and chose **Users**:
 ![Users](/post/2020/07/img/03-new-users-01.png)
-3. Add the user's details
+3. Add the user's details:
 ![Add users](/post/2020/07/img/03-new-users-02.png)
-4. Once created, from this pane you can set a temporary **password** for the user and change its full name or leave it for him/her to complete.
+4. Once created, from this pane you can set a temporary **password** for the user and change its full name or leave it for him/her to complete:
 ![Change users details](/post/2020/07/img/03-new-users-03.png)
 

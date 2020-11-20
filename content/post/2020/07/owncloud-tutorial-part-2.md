@@ -6,7 +6,6 @@ featured: false # Sets if post is a featured post, making appear on the home pag
 toc: true # Controls if a table of contents should be generated for first-level links automatically.
 codeMaxLines: 10 # Override global value for how many lines within a code block before auto-collapsing.
 codeLineNumbers: false # Override global value for showing of line numbers within code block.
-figurePositionShow: true # Override global value for showing the figure label.
 categories:
   - Tutorial
 series:
