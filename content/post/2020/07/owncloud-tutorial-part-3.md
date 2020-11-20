@@ -12,8 +12,8 @@ categories:
 series:
   - ownCloud
 tags:
-  - Linux
-  - ownCloud
+  - linux
+  - owncloud
 # comment: false # Disable comment if false.
 ---
 

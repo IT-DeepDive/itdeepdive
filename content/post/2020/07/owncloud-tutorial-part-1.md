@@ -13,7 +13,7 @@ series:
 - ownCloud
 tags:
 - linux
-- onwcloud
+- owncloud
 ---
 
 This quickstart guide is for those who want to quickly install and configure a [ownCloud Server](https://owncloud.org/download/#owncloud-server).

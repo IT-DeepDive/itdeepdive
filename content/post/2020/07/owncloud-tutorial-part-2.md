@@ -13,7 +13,7 @@ series:
   - ownCloud
 tags:
   - linux
-  - ownCloud
+  - owncloud
 # comment: false # Disable comment if false.
 ---
 

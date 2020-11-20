@@ -1,18 +1,19 @@
 ---
-title: "How to Tftp Server Centos 6"
-date: 2020-11-19T15:14:49Z
-description: "Article description."
-featured: true
+title: "How to: Install TFTP Server on Centos 6"
+date: 2020-04-16
+description: "How to: Install, Configure and Manage a TFTP Server on Centos 6"
+#featured: true
 draft: true
 toc: false
 codeMaxLines: 10
 codeLineNumbers: false
 figurePositionShow: true
 categories:
-- Technology
+- How To
 tags:
-- Tag_name1
-- Tag_name2
+- linux
+- centos
+- tftp
 ---
 
 **Insert Lead paragraph here.**

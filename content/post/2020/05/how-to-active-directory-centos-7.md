@@ -1,18 +1,19 @@
 ---
-title: "How to Active Directory Centos 7"
-date: 2020-11-19T15:17:00Z
-description: "Article description."
-featured: true
+title: "How to: Add Active Directory authentication to Centos 7"
+date: 2020-05-13
+description: "How to: Add Active Directory authentication to Centos 7."
+#featured: true
 draft: true
 toc: false
 codeMaxLines: 10
 codeLineNumbers: false
 figurePositionShow: true
 categories:
-- Technology
+- How To
 tags:
-- Tag_name1
-- Tag_name2
+- linux
+- centos
+- active directory
 ---
 
 **Insert Lead paragraph here.**

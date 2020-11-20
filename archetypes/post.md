@@ -7,12 +7,11 @@ draft: true
 toc: false
 codeMaxLines: 10
 codeLineNumbers: false
-figurePositionShow: true
 categories:
-- Technology
+- Troubleshooting
 tags:
-- Tag_name1
-- Tag_name2
+- tag 1
+- tag 2
 ---
 
 **Insert Lead paragraph here.**

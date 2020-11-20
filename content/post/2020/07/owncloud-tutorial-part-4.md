@@ -12,8 +12,8 @@ categories:
 series:
   - ownCloud
 tags:
-  - Linux
-  - ownCloud
+  - linux
+  - owncloud
 ---
 
 # Connect to the Owncloud server using a desktop or mobile client
