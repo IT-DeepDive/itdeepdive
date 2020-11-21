@@ -15,7 +15,7 @@ tags:
 - tftp
 ---
 
-Recently I had to troubleshoot a tpft server that was part of a vSphere AutoDeploy environment.
+Recently I had to troubleshoot a TFTP server that was part of a vSphere AutoDeploy environment.
 In the attempt to reproduce the issue in my lab, I deployed and configured a TFTP Server running on Centos 6. Here is what I did.
 
 
@@ -43,11 +43,21 @@ yum --disablerepo=\* --enablerepo=c6-media install tftp tftp-server tcpdump
 
 > Change `disable = yes` to `disable = no`
 
-**Step 4** - Start xinetd service: `service xinetd start`
-Check if the server is waiting for connections on port udp 69 **`netstat -tulpn`**\
+**Step 4** - Start xinetd service:
+```
+service xinetd start
+```
+
+Check if the server is waiting for connections on port udp 69:
+```
+netstat -tulpn
+```
 ![netstat -tulpn](/post/2020/04/20200416-011258.png)
 
-Don't forget to check the firewall: `iptables -L INPUT -v`\
+Don't forget to check the firewall: 
+```
+iptables -L INPUT -v
+```
 ![iptables rules](/post/2020/04/20200416-011544.png)
 
 If needed, add a rule to allow traffic on **udp port 69**: 
