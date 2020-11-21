@@ -39,7 +39,7 @@ yum --disablerepo=\* --enablerepo=c6-media install tftp tftp-server tcpdump
 ```
 
 **Step 3** - TFTP in CentOS 6.x runs under the xinetd Super Daemon. The configuration file is in `/etc/xinetd.d/tftp`\
-![tftp settings under xinetd](/post/2020/04/20200416-010826.png)
+![tftp settings under xinetd](img/20200416-010826.png)
 
 > Change `disable = yes` to `disable = no`
 
@@ -52,19 +52,19 @@ Check if the server is waiting for connections on port udp 69:
 ```
 netstat -tulpn
 ```
-![netstat -tulpn](/post/2020/04/20200416-011258.png)
+![netstat -tulpn](img/20200416-011258.png)
 
 Don't forget to check the firewall: 
 ```
 iptables -L INPUT -v
 ```
-![iptables rules](/post/2020/04/20200416-011544.png)
+![iptables rules](img/20200416-011544.png)
 
 If needed, add a rule to allow traffic on **udp port 69**: 
 ```
 iptables -I INPUT -p udp -m state --state NEW -m udp --dport 69 -j ACCEPT
 ```
-![iptables udp 69 allowed](/post/2020/04/20200416-011818.png)
+![iptables udp 69 allowed](img/20200416-011818.png)
 
 Logs are written in `/var/log/messages`.
 

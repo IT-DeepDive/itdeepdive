@@ -30,8 +30,13 @@
 
 [[main]]
   parent = "Series"
+  name = "GNS3"
+  url = "/series/GNS3/"
+
+[[main]]
+  parent = "Series"
   name = "ownCloud"
-  url = "/series/owncloud/"
+  url = "/series/ownCloud/"
 
 # Submenus are done this way: parent -> identifier
 [[main]]

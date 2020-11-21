@@ -34,12 +34,12 @@ Verify whether the server has joined the Windows AD Domain or not:
 ```
 realm list
 ```
-![real list](/post/2020/05/20200513-213637.png)
+![real list](img/20200513-213637.png)
 
 Check and Verify AD users
 ```
 id sftptest@gsslabs.org
 ```
-![Verify users](/post/2020/05/20200513-213842.png)
+![Verify users](img/20200513-213842.png)
 
 Enjoy!

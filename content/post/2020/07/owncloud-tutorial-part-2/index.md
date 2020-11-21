@@ -47,7 +47,7 @@ You may want to check if the syntax of the configuration is correct with the fol
 ```sh
 apachectl configtest
 ```
-![vhost verification](/post/2020/07/img/02-vhost-01.png)
+![vhost verification](img/02-vhost-01.png)
 
 Now restart Apache to make these changes take effect.
 
@@ -62,5 +62,5 @@ firewall-cmd --reload
 ```
 
 Now you should be able to access your ownCloud server pointing your browser to `http://owncloud_ip:8080`
-![Completed](/post/2020/07/img/02-vhost-02.png)
+![Completed](img/02-vhost-02.png)
 

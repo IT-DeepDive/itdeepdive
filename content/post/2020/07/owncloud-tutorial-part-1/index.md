@@ -112,7 +112,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-![Creating the database](/post/2020/07/img/01-create-db.png)
+![Creating the database](img/01-create-db.png)
 
 ## Install onwCloud
 This section explains how to install **onwCloud Server** from the official repository for the **CentOS 7** distribution.  
@@ -171,7 +171,7 @@ When the ownCloud prerequisites are fulfilled and all ownCloud files are install
 3. Configure the database
 4. Click **Finish Setup**
 
-![Web Setup](/post/2020/07/img/01-web-setup-02.png)
+![Web Setup](img/01-web-setup-02.png)
 
 We should be now ready to proceed with the product configuration through the web interface at `http://onwcloud_ip/owncloud/`.
 

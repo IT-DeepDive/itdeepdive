@@ -1,7 +1,7 @@
 ---
-title: "Owncloud Tutorial Part 3: Adding new Users" # Title of the blog post.
+title: "ownCloud Tutorial Part 3: Adding new Users" # Title of the blog post.
 date: 2020-07-19 # Date of post creation.
-description: "Adding new Uuers to ownCloud Server" # Description used for search engine.
+description: "Adding new Users to ownCloud Server" # Description used for search engine.
 featured: false # Sets if post is a featured post, making appear on the home page side bar.
 toc: false # Controls if a table of contents should be generated for first-level links automatically.
 codeMaxLines: 10 # Override global value for how many lines within a code block before auto-collapsing.
@@ -19,9 +19,9 @@ tags:
 # Adding Users
 1. Login to the web interface with your **Admin** credentials;
 2. On the top right corner, select **admin** and chose **Users**:
-![Users](/post/2020/07/img/03-new-users-01.png)
+![Users](img/03-new-users-01.png)
 3. Add the user's details:
-![Add users](/post/2020/07/img/03-new-users-02.png)
+![Add users](img/03-new-users-02.png)
 4. Once created, from this pane you can set a temporary **password** for the user and change its full name or leave it for him/her to complete:
-![Change users details](/post/2020/07/img/03-new-users-03.png)
+![Change users details](img/03-new-users-03.png)
 
