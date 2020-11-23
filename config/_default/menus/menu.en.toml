@@ -38,6 +38,11 @@
   name = "ownCloud"
   url = "/series/ownCloud/"
 
+[[main]]
+  parent = "Series"
+  name = "vRealize Log Insight"
+  url = "/series/vrealize-log-insight/"
+
 # Submenus are done this way: parent -> identifier
 [[main]]
   name = "Links"
