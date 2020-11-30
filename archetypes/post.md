@@ -9,6 +9,8 @@ codeMaxLines: 10
 codeLineNumbers: false
 categories:
 - Troubleshooting
+series:
+- NSX-T
 tags:
 - tag 1
 - tag 2
