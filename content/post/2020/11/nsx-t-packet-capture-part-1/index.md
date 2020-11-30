@@ -81,7 +81,6 @@ Point | Description | Capture with nsxcli
 6 | Physical Uplink | `nsxcli -c start capture interface vmnic2 direction dual`<br>Here the traffic is encapsulated into GENEVE protocol ![](img/20201130-195024.png)
 7 | Before the DFW | To get the dvfilter name: ![](img/20201130-195506.png)<br>`nsxcli -c start capture dvfilter nic-534759-eth0-vmware-sfw.2 stage pre expression ipproto 0x01`
 8 | After the DFW | `nsxcli -c start capture dvfilter nic-7925274-eth0-vmware-sfw.2 stage post expression ipproto 0x01`
-:-:|-|-
 9 | VM vnic switchport | `nsxcli -c start capture interface 134217801 direction dual expression ipproto 0x01`
 
 ## Capturing traffic using pktcap-uw
@@ -94,3 +93,6 @@ Point | Description | Capture with pktcap-uw
 4 | At the vdr Port | `pktcap-uw --switchport 100663318 --dir 2 --dstip 172.16.102.11 -o - | tcpdump-uw -ner -`
 5 | N-DVS Uplink | `pktcap-uw --switchport 2248146957 --dir 2 --ip 172.16.103.11 -o - | tcpdump-uw -ner -`
 6 | Physical Uplink | Fitering the destination VTEP IP and IP<br>`pktcap-uw --uplink vmnic2 --capture UplinkSndKernel --dstip 192.168.11.151 -o - | tcpdump-uw -ner - | grep 172.16.10`<br>`pktcap-uw --uplink vmnic2 --capture UplinkRcvKernel --srcip 192.168.11.151 -o - | tcpdump-uw -ner - | grep 172.16.10`
+7 | Before the DFW | `pktcap-uw --switchport 134217801 --dir 2 --stage 0 --srcip 172.16.103.11 -o - | tcpdump-uw -ner -`
+8 | After the DFW | `pktcap-uw --switchport 134217801 --dir 2 --stage 1 --srcip 172.16.103.11 -o - | tcpdump-uw -ner -`
+9 | VM vnic switchport | `pktcap-uw --switchport 134217801 --dir 2 --srcip 172.16.103.11 -o - | tcpdump-uw -ner -`
