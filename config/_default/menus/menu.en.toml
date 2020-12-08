@@ -35,6 +35,11 @@
 
 [[main]]
   parent = "Series"
+  name = "Kubernetes"
+  url = "/series/kubernetes/"
+
+[[main]]
+  parent = "Series"
   name = "NSX-T"
   url = "/series/nsx-t/"
 
