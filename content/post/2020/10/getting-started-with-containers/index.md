@@ -10,7 +10,7 @@ codeLineNumbers: false
 categories:
 - Tutorial
 series:
-- Docker
+- Kubernetes
 tags:
 - ubuntu
 - docker
@@ -69,7 +69,7 @@ Command |
 `docker pull <image>` | Download an image
 `docker run <image>` | Download and run the image
 `docker images` | List all downloaded images
-`docker run -it <image>` | Run an image an allocate a TTY 
+`docker run -it <image>` | Run an image an allocate a TTY
 `docker run -d <image>` | Run container in background and print container ID
 `docker ps` | List containers
 `docker start <id>` | Start one or more stopped containers
@@ -123,4 +123,3 @@ Then you can join any number of worker nodes by running the following on each as
 
 kubeadm join 172.28.161.147:6443 --token cnkcar.n2dstqeeah5c1v2y \
     --discovery-token-ca-cert-hash sha256:48a834a417900861d53294cbf6bb8db569650c6f7caa29ef844579a32a9869d3
-

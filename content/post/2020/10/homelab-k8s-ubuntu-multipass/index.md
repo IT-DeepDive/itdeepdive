@@ -9,6 +9,8 @@ codeMaxLines: 10
 codeLineNumbers: false
 categories:
 - Tutorial
+series:
+- Kubernetes
 tags:
 - multipass
 - ubuntu
@@ -22,36 +24,36 @@ tags:
 Let's list what images are available to deploy:
 ```
 multipass find
-``` 
+```
 ![multipass list](img/20201123-130638.png)
 
 For my Kubernetes Cluster I'll deploy 3 nodes (One master node and two controllers) using `Ubuntu 20.04 LTS` as follows:
 
 - name: **k8s-master-1**
-- CPU: 2 
+- CPU: 2
 - Disk: 32 Gb
 - Memory: 2 Gb
-- image: 20.04 
+- image: 20.04
 
 ```
 multipass launch -c 2 -d 32G -m 2G -n k8s-master-1 20.04
 ```
 
 - name: **k8s-controller-1**
-- CPU: 2 
+- CPU: 2
 - Disk: 32 Gb
 - Memory: 2 Gb
-- image: 20.04 
+- image: 20.04
 
 ```
 multipass launch -c 2 -d 32G -m 2G -n k8s-controller-1 20.04
 ```
 
 - name: **k8s-controller-2**
-- CPU: 2 
+- CPU: 2
 - Disk: 32 Gb
 - Memory: 2 Gb
-- image: 20.04 
+- image: 20.04
 
 ```
 multipass launch -c 2 -d 32G -m 2G -n k8s-controller-2 20.04

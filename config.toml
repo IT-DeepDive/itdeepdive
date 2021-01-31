@@ -1,7 +1,7 @@
 baseurl = "https://itdeepdive.com/"  # Include trailing slash
 title = "IT DeepDive"
 author = "Nicola Ruggiero"
-copyright = "Copyright © 2010–2020, IT DeepDive; all rights reserved."
+copyright = "Copyright © 2010–2021, IT DeepDive; all rights reserved."
 paginate = 10
 theme = "hugo-clarity"
 
@@ -43,7 +43,7 @@ series = "series"
 author = "Nicola Ruggiero"
 twitter = "@rugginic"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
-introDescription = "Senior Engineer @VMware | VCIX-DCV | 2X VCP (DCV & NV) | CCNA | MCSA"
+introDescription = "Senior Engineer @Cohesity | CKA | CCNA | MCSA | VCIX-DCV | VCP-NV"
 description = "A technology focused website to share my knowledge and experience in IT."
 
 # Google analytics Id
