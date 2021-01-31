@@ -18,7 +18,7 @@ tags:
 
 In this article we'll setup a 3 nodes Kubernetes Cluster running on 3 Raspberry Pi 4B boards.
 ![Kubernetes Pi Cluster](img/k8s-pi-cluster-320x320.png)
-I chose the 4 MB model but according to Kubernetes minimum requirements, 2 MB or RAM should be enough.
+I chose the 4 GB model even though, according to [Kubernetes Docs](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/), 2 GB or RAM should be enough.
 
 If You are interested in building your own Cluster, here is the list of components I used:
 - 3X [Raspberry Pi 4 Modell B 4GB](https://www.amazon.co.uk/gp/product/B07TC2BK1X/ref=ppx_yo_dt_b_asin_title_o05_s02?ie=UTF8&psc=1)
@@ -45,7 +45,7 @@ Since your Raspberry Pis don't have a GUI, we'll manage them over SSH. In order 
 1. Inside the folder, create a new empty txt file. Name it ssh, without extension.
    ![Creating the ssh file](img/0c5a200e341e4398a55e877a508bd1ca.png)
    This will instruct the Raspberry OS to enable and start the ssh service at boot.
-   
+
 ## Step 2 - Booting the Pis and setting hostname and IP
 1. From your home router DHCP devices list, you should  be able to see you Raspberry Pi IP
    ![DHCP devices list](img/1e233f970e53491d951a80bd3f1d482c.png)
@@ -66,7 +66,7 @@ Since your Raspberry Pis don't have a GUI, we'll manage them over SSH. In order 
    - itdd-k8s-worker-2,	IP 192.168.0.152
 1. If everything worked fine, you should have your k8s nodes up and running:
    ![k8s nodes listed](img/efcbbc19de8c48f1b60e7e71f9b4b6b1.png)
-   
+
 ## Step 3 - Software installation
 The following commands have to be exected on all the nodes
 
@@ -160,7 +160,7 @@ Only on the Master node:
    sudo chown $(id -u):$(id -g) $HOME/.kube/config
    ```
 ### Deploy flannel as the CNI
-In order to provide networking capabilities among the nodes, we need to deploy a Container Network Interface ([CNI](https://kubernetes.io/docs/concepts/cluster-administration/networking/)). There are many different options to choose from. For this instance, we are going to use one of the most common: [Flannel](https://github.com/coreos/flannel#flannel) 
+In order to provide networking capabilities among the nodes, we need to deploy a Container Network Interface ([CNI](https://kubernetes.io/docs/concepts/cluster-administration/networking/)). There are many different options to choose from. For this instance, we are going to use one of the most common: [Flannel](https://github.com/coreos/flannel#flannel)
    ```
    kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
    ```
@@ -168,11 +168,11 @@ In order to provide networking capabilities among the nodes, we need to deploy a
 1. Validate all pods in the kube-system namespace are up and running:
    `kubectl get pod --all-namespaces` or `kubectl get pod -n kube-system`:
    ![kubectl get pod -n kube-system](img/767f2a85dff143a3aed3fc872c5b86ed.png)
-   
-### Join the Worker Nodes to the Master 
+
+### Join the Worker Nodes to the Master
 Recall the join command generated from the kubeadm init command and run it on each and every node as sudo:
 ![Join the worker nodes](img/86bf7d7a87404eeb865b301a0d4dcb5b.png)   
-   
+
 ### Verify the installation from the master node
 You can run kubectl get nodes to get a list of the nodes and their status:
 ![Verify the installation](img/ecca46f4d0e94192aa840fa408566d64.png)
