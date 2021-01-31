@@ -1,6 +1,6 @@
 ---
-title: "Getting Started with Containers"
-date: 2020-10-12
+title: "Getting Started with Docker Containers"
+date: 2020-10-19
 description: "Getting Started with containers."
 featured: true
 draft: true

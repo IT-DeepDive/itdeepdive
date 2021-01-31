@@ -25,14 +25,14 @@ ownCloud offers a variety of installation options:
 - [Appliance](https://owncloud.org/download/#owncloud-server-appliance)
 - [Linux packages](https://owncloud.org/download/#owncloud-server-linux-packages)
 
-In this document we will cover a standard single-server installation on [CentOS 7](https://www.centos.org/).  
+In this document we will cover a standard single-server installation on [CentOS 7](https://www.centos.org/).
 
 ## Prerequisites
 - A fresh installation of [CentOS 7](https://www.centos.org/) with SSH enabled.
 - This guide assumes that you are connected as the `root` user.
 
 ## Prepare the Server
-According to [ownCloud documentation](https://doc.owncloud.com/server/admin_manual/installation/system_requirements.html) the supported environments for *best performance*, *stability*, *support*, and *full functionality* are:  
+According to [ownCloud documentation](https://doc.owncloud.com/server/admin_manual/installation/system_requirements.html) the supported environments for *best performance*, *stability*, *support*, and *full functionality* are:
 
 | Platform                  | Options                                                                                                                                                                     |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -46,7 +46,7 @@ First, make sure the server is up to date:
 ```sh
 yum update -y && yum upgrade
 ```
-The current installed version should be `CentOS Linux release 7.8.2003 (Core)`.  
+The current installed version should be `CentOS Linux release 7.8.2003 (Core)`.
 You can check the version by issuing:
 ```sh
 cat /etc/centos-release
@@ -61,8 +61,8 @@ Enter the following commands in order to install and enable the **EPEL** (Extra 
 yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 yum install -y http://rpms.remirepo.net/enterprise/remi-release-7.rpm
 ```
-**CentOS 7** ships by default with **PHP 5** thus, the **Remi** repository is needed to retrieve and install **PHP 7**.  
-Next, using `yum-config-manger`, disable `remi-php54` and enable `remi-php73`.  
+**CentOS 7** ships by default with **PHP 5** thus, the **Remi** repository is needed to retrieve and install **PHP 7**.
+Next, using `yum-config-manger`, disable `remi-php54` and enable `remi-php73`.
 `yum-config-manger` is provided by the package `yum-utils`.
 ```sh
 yum install -y yum-utils
@@ -115,9 +115,9 @@ EXIT;
 ![Creating the database](img/01-create-db.png)
 
 ## Install onwCloud
-This section explains how to install **onwCloud Server** from the official repository for the **CentOS 7** distribution.  
-This is the quickest and easiest method for setting up a single standalone onwCloud server.  
-For large production distributed deployments, the recommended method would be to downloading and installing the tarball version.  
+This section explains how to install **onwCloud Server** from the official repository for the **CentOS 7** distribution.
+This is the quickest and easiest method for setting up a single standalone onwCloud server.
+For large production distributed deployments, the recommended method would be to downloading and installing the tarball version.
 For more information, please refer to the official [ownCloud Documentation](https://doc.owncloud.org/server/10.4/admin_manual/installation/deployment_considerations.html).
 
 ### Add ownCloud repository
@@ -174,4 +174,3 @@ When the ownCloud prerequisites are fulfilled and all ownCloud files are install
 ![Web Setup](img/01-web-setup-02.png)
 
 We should be now ready to proceed with the product configuration through the web interface at `http://onwcloud_ip/owncloud/`.
-

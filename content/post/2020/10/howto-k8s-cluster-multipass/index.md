@@ -1,5 +1,5 @@
 ---
-title: "Homelab K8s Ubuntu Multipass"
+title: "Kubernets Multi-Node Cluster with Multipass"
 date: 2020-10-12
 description: "Article description."
 featured: true
@@ -8,7 +8,7 @@ toc: false
 codeMaxLines: 10
 codeLineNumbers: false
 categories:
-- Tutorial
+- How To
 series:
 - Kubernetes
 tags:
@@ -18,7 +18,9 @@ tags:
 - hyper-v
 ---
 
-**Insert Lead paragraph here.**
+In this short article I will explain how to create a 3 nodes Kubernetes cluster on your Mac leveraging [Ubuntu Multipass](https://multipass.run/).
+> "Multipass provides a command line interface to launch, manage and generally fiddle about with instances of Linux. The downloading of a minty-fresh image takes a matter of seconds, and within minutes a VM can be up and running."\
+<i>The Register</i>
 
 ## Deploy the 3 Kubernetes nodes via Multipass
 Let's list what images are available to deploy:

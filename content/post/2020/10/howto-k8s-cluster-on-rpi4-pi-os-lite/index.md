@@ -1,5 +1,5 @@
 ---
-title: "Creating a Kubernetes Cluster on Raspberry Pi 4 and Raspberry Pi OS Lite"
+title: "Kubernets Multi-Node Cluster on Raspberry Pi 4"
 date: 2020-10-26
 description: "Creating a Kubernetes Cluster on Raspberry Pi 4 and Raspberry Pi OS Lite."
 featured: true
@@ -171,7 +171,7 @@ In order to provide networking capabilities among the nodes, we need to deploy a
 
 ### Join the Worker Nodes to the Master
 Recall the join command generated from the kubeadm init command and run it on each and every node as sudo:
-![Join the worker nodes](img/86bf7d7a87404eeb865b301a0d4dcb5b.png)   
+![Join the worker nodes](img/86bf7d7a87404eeb865b301a0d4dcb5b.png)
 
 ### Verify the installation from the master node
 You can run kubectl get nodes to get a list of the nodes and their status:
