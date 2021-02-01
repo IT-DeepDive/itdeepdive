@@ -1,7 +1,7 @@
 ---
-title: "NSX-T Packet Capture Part 1: East - West Traffic on Overlay Segment"
+title: "NSX-T Packet Capture: East - West Traffic on Overlay Segment"
 date: 2020-11-30
-description: "NSX-T Packet Capture Part 1: East - West Traffic on Overlay Segment using nsxcli and pktcap-uw."
+description: "NSX-T Packet Capture: East - West Traffic on Overlay Segment using nsxcli and pktcap-uw."
 featured: true
 toc: true
 codeMaxLines: 10
@@ -29,7 +29,7 @@ The Tier-1 Gateway does not provide stateful services so it's not connected to a
 Let's to a Traceflow and see what the data path looks like:
 ![Data path](img/20201130-115806.png)
 
-The traffic goes from the VM vnic down to the vdr port 
+The traffic goes from the VM vnic down to the vdr port
 
 We need to get the PortIDs for:
 - T1-Web-01
@@ -71,7 +71,7 @@ From [NSX-T Command-Line Interface Reference](https://vdc-download.vmware.com/vm
 
 > **Sintax:** [`start capture interface <interface-name> [direction <direction>] [file <filename>] [count <packet-count>] [expression <expression>]`](https://vdc-download.vmware.com/vmwb-repository/dcr-public/cc42e3c1-eb34-4567-a916-147e79798957/8264605c-a5e1-49a8-b603-cc78621eeeab/cli.html#start%20capture%20interface%20%3Cinterface-name%3E%20[direction%20%3Cdirection%3E]%20[file%20%3Cfilename%3E]%20[count%20%3Cpacket-count%3E]%20[expression%20%3Cexpression%3E])
 
-Point | Description | Capture with nsxcli 
+Point | Description | Capture with nsxcli
 :-:|-|-
 1 | VM vnic switchport | `nsxcli -c start capture interface 100663322 direction dual expression ipproto 0x01`
 2 | Before the DFW | `nsxcli -c start capture dvfilter nic-534759-eth0-vmware-sfw.2 stage pre expression ipproto 0x01`
