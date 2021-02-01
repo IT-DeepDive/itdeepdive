@@ -3,7 +3,6 @@ title: "Kubernetes Multi-Node Cluster with Multipass"
 date: 2020-10-12
 description: "How to create a Kubernetes Cluster leveraging Multipass"
 featured: true
-draft: true
 toc: true
 codeMaxLines: 10
 codeLineNumbers: false
