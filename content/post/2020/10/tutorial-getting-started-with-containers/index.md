@@ -18,7 +18,7 @@ tags:
 - hyper-v
 ---
 
-In the [first part](../homelab-k8s-ubuntu-multipass) we discussed how to deploy **Ubuntu Server 20.04** on Hyper-V using Multipass. in this article we'll install Docker and provide some basic commands.
+In the [first part](../kubernetes-multi-node-cluster-with-multipass) we discussed how to deploy **Ubuntu Server 20.04** on Hyper-V using Multipass. in this article we'll install Docker and provide some basic commands.
 
 ## Docker installation
 From [Docker Docs](https://docs.docker.com/engine/install/ubuntu/)
