@@ -1,5 +1,5 @@
 ---
-title: "Kubernets Multi-Node Cluster on Raspberry Pi 4"
+title: "Kubernetes Multi-Node Cluster on Raspberry Pi 4"
 date: 2020-10-26
 description: "Creating a Kubernetes Cluster on Raspberry Pi 4 and Raspberry Pi OS Lite."
 featured: true

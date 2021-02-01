@@ -1,5 +1,5 @@
 ---
-title: "How to: Install and Configure GNS3 with VMware Workstation Player Free"
+title: "Install and Configure GNS3 with VMware Workstation Player Free"
 date: 2020-04-23
 description: "How to: Install and Configure GNS3 with VMware Workstation Player Free."
 #featured: true
@@ -43,7 +43,7 @@ In this article, I'll demonstrate how to install GNS3 on Windows 10 using [VMwar
 The latest available version of VIX API 1.17.0 was released in 2017 and is not compatible with VMware Workstation Player 15.x.
 Don't worry, in order to get it working, we will have to hack some configuration files.
 1. Open **`vixwrapper-config.txt`** in **`C:\Program Files (x86)\VMware\VMware VIX`**. (Take a copy of the file before making any changes)
- 
+
    ```bash
    #@Version-Info
    #
@@ -79,17 +79,17 @@ Don't worry, in order to get it working, we will have to hack some configuration
    player    19  vmdb  e.x.p Workstation-14.0.0
 
    # EOF
-   
+
    ```
 
-1. Add the following lines before **`# latest un-versioned`**  
+1. Add the following lines before **`# latest un-versioned`**
    ```bash
    # Workstation and Player 15.5.2
    ws        19  vmdb  15.5.2 Workstation-15.0.0
    player    19  vmdb  15.5.2 Workstation-15.0.0
    ws        19  vmdb   e.x.p Workstation-15.0.0
    player    19  vmdb   e.x.p Workstation-15.0.0
-   
+
    ```
 
    Here is what the file looks like after making the changes:
@@ -134,7 +134,7 @@ Don't worry, in order to get it working, we will have to hack some configuration
    player    19  vmdb  e.x.p Workstation-14.0.0
 
    # EOF
-   
+
    ```
 
 3. Save and Close the file. Notepad++ will ask for "Administrator mode"

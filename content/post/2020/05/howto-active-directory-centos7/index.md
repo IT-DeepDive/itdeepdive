@@ -1,5 +1,5 @@
 ---
-title: "How to: Active Directory authentication on Centos 7"
+title: "Active Directory authentication on Centos 7"
 date: 2020-05-13
 description: "How to: Active Directory authentication on Centos 7."
 #featured: true

@@ -1,5 +1,5 @@
 ---
-title: "How to: Install TFTP Server on Centos 6"
+title: "Install TFTP Server on Centos 6"
 date: 2020-04-16
 description: "How to: Install, Configure and Manage a TFTP Server on Centos 6"
 #featured: true
@@ -19,12 +19,12 @@ Recently I had to troubleshoot a TFTP server that was part of a vSphere AutoDepl
 In the attempt to reproduce the issue in my lab, I deployed and configured a TFTP Server running on Centos 6. Here is what I did.
 
 
-**Step 1** - Update the server: 
+**Step 1** - Update the server:
 ```
 yum update && yum upgrade -y
 ```
 
-**Step 2** - Install the following packages 
+**Step 2** - Install the following packages
 ```
 yum install -y tftp tftp-server tcpdump
 ```
@@ -33,7 +33,7 @@ yum install -y tftp tftp-server tcpdump
 ```
 mount /dev/cdrom /media/cdrom
 ```
-And install the packages from the local repository (CDROM): 
+And install the packages from the local repository (CDROM):
 ```
 yum --disablerepo=\* --enablerepo=c6-media install tftp tftp-server tcpdump
 ```
@@ -54,13 +54,13 @@ netstat -tulpn
 ```
 ![netstat -tulpn](img/20200416-011258.png)
 
-Don't forget to check the firewall: 
+Don't forget to check the firewall:
 ```
 iptables -L INPUT -v
 ```
 ![iptables rules](img/20200416-011544.png)
 
-If needed, add a rule to allow traffic on **udp port 69**: 
+If needed, add a rule to allow traffic on **udp port 69**:
 ```
 iptables -I INPUT -p udp -m state --state NEW -m udp --dport 69 -j ACCEPT
 ```
