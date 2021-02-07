@@ -3,7 +3,6 @@ title: My CCNA 200-301 Exam Experience
 date: 2020-06-20
 description: My personal experience after passing the Cisco CCNA 200-301 Exam.
 featured: false
-draft: true
 thumbnail: /images/ccna-200x150.png
 toc: false
 codeMaxLines: 10
