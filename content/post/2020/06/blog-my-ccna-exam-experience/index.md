@@ -18,7 +18,7 @@ tags:
   - Networking
 ---
 
-On June 18th 2020, I passed the CISCO 200-301 Exam and earned the [CCNA Certification](https://www.youracclaim.com/badges/806c516e-048d-4f79-8c8d-5e98f2c66ab3/public_url).\
+On June 18th 2020, I passed the CISCO 200-301 Exam and earned the [CCNA Certification](https://www.youracclaim.com/badges/806c516e-048d-4f79-8c8d-5e98f2c66ab3/public_url).
 
 This is the seventh edition (CCNA v7) and the exam consists in 102 multiple choice questions to be answered in 2 hours, minimum score to pass is 825 on 1000. Unlike the previous versions, there are no practical tasks or labs or labs to complete, so one could say it is easier, however the average time for each question is 70 seconds and passing score quite high, so both factors have to be taken into consideration when preparing for this Certification.
 
