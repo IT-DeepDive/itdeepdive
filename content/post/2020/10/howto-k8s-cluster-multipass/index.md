@@ -6,6 +6,7 @@ featured: true
 toc: true
 codeMaxLines: 10
 codeLineNumbers: false
+thumbnail: "/images/mpass-k8s-docker-200x150.png"
 categories:
 - How To
 series:

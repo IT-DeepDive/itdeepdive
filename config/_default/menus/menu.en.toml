@@ -4,9 +4,14 @@
   weight = -110
 
 [[main]]
+  name = "Blog"
+  url = "categories/blog/"
+  weight = -109
+
+[[main]]
   name = "Categories"
   identifier= "Categories"
-  weight = -109
+  weight = -108
 
 [[main]]
   parent = "Categories"
@@ -26,7 +31,13 @@
 [[main]]
   name = "Series"
   identifier= "Series"
-  weight = -108
+  weight = -107
+
+[[main]]
+  parent = "Series"
+  name = "IT Certifications"
+  url = "/series/it-certifications/"
+  weight = 1
 
 [[main]]
   parent = "Series"
@@ -40,8 +51,8 @@
 
 [[main]]
   parent = "Series"
-  name = "NSX-T"
-  url = "/series/nsx-t/"
+  name = "NSX"
+  url = "/series/nsx/"
 
 [[main]]
   parent = "Series"
@@ -57,7 +68,7 @@
 [[main]]
   name = "Links"
   identifier = "Links"
-  weight = -107
+  weight = -106
 [[main]]
   parent = "Links"
   name = "IT DeepDive Wiki"
@@ -69,5 +80,5 @@
 
 [[main]]
   name = "About"
-  url = "about/"
-  weight = -106
+  url = "/about/"
+  weight = -105

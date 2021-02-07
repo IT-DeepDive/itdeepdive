@@ -24,4 +24,3 @@ tags:
 ![Add users](img/03-new-users-02.png)
 4. Once created, from this pane you can set a temporary **password** for the user and change its full name or leave it for him/her to complete:
 ![Change users details](img/03-new-users-03.png)
-

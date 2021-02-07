@@ -9,13 +9,13 @@ codeLineNumbers: false
 categories:
 - Troubleshooting
 series:
-- NSX-T
+- NSX
 tags:
 - packet capture
 - nsxcli
-- vmware
-- networking
-- nsx-t
+- VMware
+- Networking
+- NSX-T
 
 ---
 

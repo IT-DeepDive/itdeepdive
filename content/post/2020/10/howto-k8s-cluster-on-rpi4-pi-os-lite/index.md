@@ -3,7 +3,7 @@ title: "Kubernetes Multi-Node Cluster on Raspberry Pi 4"
 date: 2020-10-26
 description: "Creating a Kubernetes Cluster on Raspberry Pi 4 and Raspberry Pi OS Lite."
 featured: true
-thumbnail: "/images/k8s-pi-cluster-200x200.png" # Sets thumbnail image appearing inside card on homepage.
+thumbnail: "/images/k8s-pi-cluster-200x150.png" # Sets thumbnail image appearing inside card on homepage.
 toc: true
 codeMaxLines: 10
 codeLineNumbers: false
@@ -100,6 +100,8 @@ The following commands have to be exected on all the nodes
    $ curl -sSL get.docker.com | sh
    $ sudo usermod -aG docker pi
    ```
+> In the above, "`curl -sSL get.docker.com | sh`", be careful when you pipe a `curl` or `wget` command into `sh`, since you don't have control on what is actually been executed on your server. Only do it if you trust the source, or alternatively, download the script first and have a look at it before executing it.
+
 1. Logout and log back in
 1. As the root user create the file `/etc/docker/daemon.json` with the following content:
    ```json
