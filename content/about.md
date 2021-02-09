@@ -8,7 +8,7 @@ comment: false
 ---
 
 # About me
-[![](/images/rugginic.png "Nicola Ruggiero")](https://www.linkedin.com/in/rugginic/)\
+[![:left](/images/rugginic.png "Nicola Ruggiero")](https://www.linkedin.com/in/rugginic/)\
 Computer science has been my passion since I was a kid. I've always invested in myself trying to keep constantly updated on new technologies, acquiring new skills and deepening those already achieved.
 
 I am an enthusiastic, creative thinking, hugely experienced IT professional. Motivated to learn, grow and excel, with a diverse range of skills and experience accrued in more than 20 years, from areas such as system design and architecture all the way through to hardware infrastructure and implementation, from small/home offices to enterprise level cloud environments.

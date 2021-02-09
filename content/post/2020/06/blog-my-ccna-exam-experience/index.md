@@ -59,4 +59,6 @@ There are a few questions in the Exam that weren't actually covered in the Cours
 
   [ca744955]: https://www.cit.ie/course/CRKCNAS6 "CCNA at CIT"
 
-Best of luck to everyone and let me know your impressions in the comments below!
+[![](/images/ccna-200x150.png)](https://www.youracclaim.com/badges/806c516e-048d-4f79-8c8d-5e98f2c66ab3/public_url)\
+[CCNA](https://www.youracclaim.com/badges/806c516e-048d-4f79-8c8d-5e98f2c66ab3/public_url)\
+Issued by [Cisco](https://www.youracclaim.com/organizations/cisco/badges)

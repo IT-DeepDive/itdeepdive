@@ -2,9 +2,9 @@
 title: "My ITIL® 4 Foundation CPD Exam Experience"
 date: 2020-09-26
 description: "My personal experience with the ITIL® 4 Foundation CPD Exam and how I prepared."
-featured: true
+featured: false
 toc: false
-thumbnail: /images/itil-4-foundation-cpd-150x150.png
+thumbnail: /images/itil-4-foundation-cpd-200x150.png
 codeMaxLines: 10
 codeLineNumbers: false
 categories:
@@ -61,6 +61,6 @@ You can choose between the paper and the digital version (pdf / ebook). I got mi
    - [ITIL 4 Foundation Practice Certification Exams](https://www.udemy.com/course/itil-4-foundation-practice-certification-exams-6-exams-q/) on [Udemy](https://www.udemy.com/)
 
 
-[![](img/itil-4-foundation-cpd-150x150.png)](https://www.youracclaim.com/badges/d64b3a00-177c-4abe-a7ae-98ac91a6781e/public_url)\
+[![](/images/itil-4-foundation-cpd-150x150.png)](https://www.youracclaim.com/badges/d64b3a00-177c-4abe-a7ae-98ac91a6781e/public_url)\
 [ITIL® 4 Foundation CPD](https://www.youracclaim.com/badges/d64b3a00-177c-4abe-a7ae-98ac91a6781e/public_url)\
 Issued by [AXELOS](https://www.youracclaim.com/organizations/axelos/badges)
