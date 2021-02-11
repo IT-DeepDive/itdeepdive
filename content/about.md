@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "IT DeepDive"
+description: "About the author Nicola Ruggiero and his technology focused blog IT Deep Dive."
 date: 2010-01-01
 aliases: ["about-us", "about-itdeepdive", "contact"]
 author: "Nicola Ruggiero"
@@ -17,7 +17,7 @@ I have a wide range of [certifications](https://www.youracclaim.com/users/nicola
 
 Check out my [linkedin profile](https://www.linkedin.com/in/rugginic/).
 
-# About this website
+# About this Website
 [![](/logos/itdeepdive-logo-dark.png "IT DeepDive logo")](https://itdeepdive.com)\
 I've always wanted to have my personal website for many reasons. For example:
 - Keep notes of my daily work as a Senior Engineer
