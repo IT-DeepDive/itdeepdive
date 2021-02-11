@@ -3,7 +3,8 @@ title: "This Is Another Test"
 date: 2021-02-11
 description: "Article description: This Is a Test to demonstrate whether Google lighthouse finds it SEO optimised or not."
 featured: true
-draft: true
+featureImage: "/images/cka-certificate.jpg"
+thumbnail: /images/cka-200x150.png
 toc: false
 codeMaxLines: 10
 codeLineNumbers: false
