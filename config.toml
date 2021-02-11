@@ -1,7 +1,7 @@
 baseurl = "https://itdeepdive.com/"  # Include trailing slash
-title = "IT Deep Dive"
+title = "IT DeepDive"
 author = "Nicola Ruggiero"
-copyright = "Copyright © 2010–2021, IT Deep Dive; all rights reserved."
+copyright = "Copyright © 2010–2021, IT DeepDive; all rights reserved."
 paginate = 10
 theme = "hugo-clarity"
 

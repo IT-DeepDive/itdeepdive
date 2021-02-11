@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "About the author Nicola Ruggiero and his technology focused blog IT Deep Dive."
+description: "About the author Nicola Ruggiero and his technology focused blog IT DeepDive."
 date: 2010-01-01
 aliases: ["about-us", "about-itdeepdive", "contact"]
 author: "Nicola Ruggiero"
