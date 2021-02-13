@@ -5,7 +5,7 @@
 
 [[main]]
   name = "Blog"
-  url = "categories/blog/"
+  url = "/blog/"
   weight = -109
 
 [[main]]
@@ -32,12 +32,6 @@
   name = "Series"
   identifier= "Series"
   weight = -107
-
-[[main]]
-  parent = "Series"
-  name = "IT Certifications"
-  url = "/series/it-certifications/"
-  weight = 1
 
 [[main]]
   parent = "Series"
