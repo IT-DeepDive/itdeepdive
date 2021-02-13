@@ -3,15 +3,8 @@ title: "My ITIL® 4 Foundation CPD Exam Experience"
 date: 2020-09-26
 description: "My personal experience with the ITIL® 4 Foundation CPD Exam and how I prepared."
 featured: false
-toc: false
 featureImage: /images/20200926-itil-certificate.jpg
 thumbnail: /thumbnails/itil-4-foundation-cpd-200x150.png
-codeMaxLines: 10
-codeLineNumbers: false
-categories:
-- Blog
-series:
-- IT Certifications
 tags:
 - Best Practices
 - Certification
