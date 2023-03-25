@@ -43,7 +43,7 @@ series = "series"
 author = "Nicola Ruggiero"
 twitter = "@rugginic"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
-introDescription = "IT Cloud Architect @Qaulcomm | CCNA | CKA | MCSA | VCIX"
+introDescription = "IT Cloud Architect @[Qualcomm](https://www.qualcomm.com/) | CCNA | CKA | MCSA | VCIX"
 description = "IT Deep Dive, or IT DeepDive, or itdeepdive, is a technology focused website to share my knowledge and experience in IT."
 
 # Google analytics Id
