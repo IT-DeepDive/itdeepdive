@@ -77,8 +77,8 @@ Point | Description | Capture with nsxcli
 2 | Before the DFW | `nsxcli -c start capture dvfilter nic-534759-eth0-vmware-sfw.2 stage pre expression ipproto 0x01`
 3 | After the DFW | `nsxcli -c start capture dvfilter nic-534759-eth0-vmware-sfw.2 stage post expression ipproto 0x01`
 4 | At the vdr Port | `nsxcli -c start capture interface vdrPort expression ipproto 0x01`<br>Source host (requests only):![](/images/20201130-capture-at-vdrport.png) Destination host (replies only):![](/images/20201130-capture-replies.png)
-5 | N-DVS Uplink | `nsxcli -c start capture interface c9b5052b-9e46-4c9e-9b2a-8b1b46e26796 direction dual expression ipproto 0x01`<br>To get the DVPortID:![](/images/20201130-183500.png)
-6 | Physical Uplink | `nsxcli -c start capture interface vmnic2 direction dual`<br>Here the traffic is encapsulated into GENEVE protocol ![](/images/20201130-get-dvportid.png)
+5 | N-DVS Uplink | `nsxcli -c start capture interface c9b5052b-9e46-4c9e-9b2a-8b1b46e26796 direction dual expression ipproto 0x01`<br>To get the DVPortID:![](/images/20201130-get-dvportid.png)
+6 | Physical Uplink | `nsxcli -c start capture interface vmnic2 direction dual`<br>Here the traffic is encapsulated into GENEVE protocol ![](/images/20201130-geneve-capture.png)
 7 | Before the DFW | To get the dvfilter name: ![](/images/20201130-get-dvfilter-name.png)<br>`nsxcli -c start capture dvfilter nic-534759-eth0-vmware-sfw.2 stage pre expression ipproto 0x01`
 8 | After the DFW | `nsxcli -c start capture dvfilter nic-7925274-eth0-vmware-sfw.2 stage post expression ipproto 0x01`
 9 | VM vnic switchport | `nsxcli -c start capture interface 134217801 direction dual expression ipproto 0x01`
