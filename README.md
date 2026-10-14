@@ -2,7 +2,7 @@
 
 Source of [itdeepdive.com](https://itdeepdive.com/): a [Hugo](https://gohugo.io/) site using the
 [hugo-clarity](https://github.com/chipzoller/hugo-clarity) theme (git submodule in `themes/`).
-Every push to `master` is built and deployed to GitHub Pages by `.github/workflows/hugo.yml`.
+Every push to `main` is built and deployed to GitHub Pages by `.github/workflows/hugo.yml`.
 
 ## Local preview
 
