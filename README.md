@@ -1,23 +1,27 @@
-# hugoBasicExample
+# itdeepdive.com
 
-This repository offers an example site for [Hugo](https://gohugo.io/) and also it provides the default content for demos hosted on the [Hugo Themes Showcase](https://themes.gohugo.io/).
+Source of [itdeepdive.com](https://itdeepdive.com/): a [Hugo](https://gohugo.io/) site using the
+[hugo-clarity](https://github.com/chipzoller/hugo-clarity) theme (git submodule in `themes/`).
+Every push to `master` is built and deployed to GitHub Pages by `.github/workflows/hugo.yml`.
 
-# Using
+## Local preview
 
-1. [Install Hugo](https://gohugo.io/overview/installing/)
-2. Clone this repository
 ```bash
-git clone https://github.com/gohugoio/hugoBasicExample.git
-cd hugoBasicExample
+git clone --recurse-submodules <repo-url>
+hugo server -D        # http://localhost:1313, -D also shows drafts
 ```
-3. Clone the repository you want to test. If you want to test all Hugo Themes then follow the instructions provided [here](https://github.com/gohugoio/hugoThemes#installing-all-themes)
-4. Run Hugo and select the theme of your choosing
-```bash
-hugo server -t YOURTHEME
-```
-5. Under `/content/` this repository contains the following:
-- A section called `/post/` with sample markdown content
-- A headless bundle called `homepage` that you may want to use for single page applications. You can find instructions about headless bundles over [here](https://gohugo.io/content-management/page-bundles/#headless-bundle)
-- An `about.md` that is intended to provide the `/about/` page for a theme demo
-6. If you intend to build a theme that does not fit in the content structure provided in this repository, then you are still more than welcome to submit it for review at the [Hugo Themes](https://github.com/gohugoio/hugoThemes/issues) respository
 
+Use the same Hugo **extended** version as CI (`HUGO_VERSION` in the workflow), e.g. into `~/.local/bin`:
+
+```bash
+V=0.168.0
+curl -sSL "https://github.com/gohugoio/hugo/releases/download/v$V/hugo_extended_${V}_linux-amd64.tar.gz" | tar xz -C ~/.local/bin hugo
+```
+
+## Upgrading
+
+- **Hugo:** bump `HUGO_VERSION` in the workflow and your local binary together, then `hugo` and fix any warnings.
+- **Theme:** `git -C themes/hugo-clarity pull origin master`, build, commit the submodule pointer.
+  Local overrides to re-check against the theme after an upgrade:
+  - `layouts/partials/comments.html` – theme copy with the "See Also" list (`see-also.html`) in front.
+  - `assets/sass/_override.sass` – colour/variable overrides.

@@ -1,0 +1,15 @@
+{{- /* Theme comments.html (hugo-clarity 970be88) with the site's "See Also" list in front,
+     so we get it under every post without forking single.html. */ -}}
+{{ partial "see-also" . }}
+<div class="post_comments">
+  {{ if .Site.Config.Services.Disqus.Shortname }}
+    {{ template "_internal/disqus.html" . }}
+  {{ end }}
+  {{ if .Site.Params.utterances }}
+    {{ partial "utterances.html" . }}
+  {{ end }}
+  {{ if .Site.Params.giscus }}
+    {{ partial "giscus.html" . }}
+  {{ end }}
+  <!-- add custom comments markup here -->
+</div>

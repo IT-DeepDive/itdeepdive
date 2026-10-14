@@ -1,11 +1,8 @@
 baseurl = "https://itdeepdive.com/"  # Include trailing slash
 title = "IT DeepDive"
-author = "Nicola Ruggiero"
-copyright = "Copyright © 2010–2023, IT DeepDive; all rights reserved."
-paginate = 10
+copyright = "Copyright © 2010–2026, IT DeepDive; all rights reserved."
 theme = "hugo-clarity"
 
-disqusShortname = "itdeepdive"
 
 DefaultContentLanguage = "en"
 # [languages]
@@ -13,6 +10,9 @@ DefaultContentLanguage = "en"
 
 # [menus]
 # config/_default/menus/menu.xx.toml
+
+[pagination]
+pagerSize = 10
 
 [taxonomies]
 category = "categories"
@@ -40,20 +40,17 @@ series = "series"
     tabWidth = 2
 
 [params]
-author = "Nicola Ruggiero"
+author = { name = "Nicola Ruggiero" }
 twitter = "@rugginic"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
 introDescription = "IT Cloud Architect @[Qualcomm](https://www.qualcomm.com/) | CCNA | CKA | MCSA | VCIX"
 description = "IT Deep Dive, or IT DeepDive, or itdeepdive, is a technology focused website to share my knowledge and experience in IT."
 
-# Google analytics Id
-ga_analytics = "XXXXXXXXXX"
-
 # limit the number of taxonomies links shown on the sidebar of each page by default.
 numberOfTagsShown = 14 # Applies for all other default & custom taxonomies. e.g categories, brands see https://gohugo.io/content-management/taxonomies#what-is-a-taxonomy
 
 # will be used on share >> twitter, facebook, linkedin
-fallBackOgImage = "images/thumbnail.png"
+fallBackOgImage = "logos/itdeepdive-logo.png"
 
 # sets the maximum number of lines per codeblock. The codeblock will however be scrollable and expandable.
 codeMaxLines = 7
