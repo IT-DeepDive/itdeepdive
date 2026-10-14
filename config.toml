@@ -105,6 +105,15 @@ languageMenuName = "🌐"
 # dateFormat = "2006-01-02" # Default to "Jan 2, 2006".
 # customFonts = false # toggle to true if you want to use custom fonts only.
 
+# Comments: giscus (GitHub Discussions in IT-DeepDive/itdeepdive)
+giscus = true
+giscusRepo = "IT-DeepDive/itdeepdive"
+giscusRepoId = "R_kgDOVJ-6Ng"
+giscusCategory = "Announcements"
+giscusCategoryId = "DIC_kwDOVJ-6Ns4DIdAp"
+giscusMapping = "pathname"
+giscusTheme = "light"
+
 [permalinks]
   blog = "/:year/:month/:title/"
   post = "/:year/:month/:title/"
