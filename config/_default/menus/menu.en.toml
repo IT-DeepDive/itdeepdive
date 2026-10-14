@@ -65,10 +65,6 @@
   weight = -106
 [[main]]
   parent = "Links"
-  name = "IT DeepDive Wiki"
-  url = "https://dw.itddive.com/"
-[[main]]
-  parent = "Links"
   name = "Credly"
   url = "https://www.credly.com/users/rugginic"
 
